@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Lab062023B
 {
-    internal class Person
+    //comentarios
+    public class Person
     {
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public string DNI { get; set; }
     }
 }
