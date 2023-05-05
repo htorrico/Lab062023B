@@ -4,6 +4,8 @@
              x:Class="Lab062023B.Page1">
     <ContentPage.Content>
         <StackLayout>
+
+            <Button x:Name="btnGetPeople" Clicked="btnGetPeople_Clicked"></Button>
             <ListView  x:Name="lvPeople">
                 <ListView.ItemTemplate>
                     <DataTemplate>

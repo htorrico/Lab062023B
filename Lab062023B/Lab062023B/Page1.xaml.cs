@@ -16,5 +16,17 @@ namespace Lab062023B
         {
             InitializeComponent();
         }
+
+        private void btnGetPeople_Clicked(object sender, EventArgs e)
+        {
+            List<Person> people = new List<Person>();
+            people.Add(new Person { Name = "Hugo",LastName= "Torrico" });
+            people.Add(new Person { Name = "Paco", LastName = "Lopez" });
+            people.Add(new Person { Name = "Luis", LastName = "Marquez" });
+            people.Add(new Person { Name = "Miguel", LastName = "Palomino" });
+
+
+            lvPeople.ItemsSource = people;
+        }
     }
 }
